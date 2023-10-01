@@ -1,0 +1,63 @@
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.question {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.answers {
+  list-style-type: none;
+  padding: 0;
+}
+
+.answers li {
+  margin: 10px 0;
+}
+
+.answer-button {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.correct-answer {
+  background-color: #4caf50;
+  color: white;
+}
+
+.wrong-answer {
+  background-color: #f44336;
+  color: white;
+}
+
+.timer {
+  font-size: 16px;
+  margin-top: 10px;
+  color: red;
+}
+
+.game-over {
+  text-align: center;
+  font-size: 40px;
+}
+
+.score-correct {
+  margin: 10px 0;
+  color: rgb(0, 255, 0);
+}
+.score-wrong {
+  margin: 10px 0;
+  color: red;
+}
